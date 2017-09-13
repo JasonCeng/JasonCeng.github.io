@@ -95,16 +95,17 @@
 
 
 
-<meta name="description" content="每一天都值得被認真對待。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="JasonCeng&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="一、下载 1、mongoDB for Windows 2、mongoDB for Linux 3、mongoDB for OSX(mac) 二、安装与配置 1、安装到指定文件夹，这里我默认安装到了C盘的Program Files文件夹下，安装后的路径为  C:\Program Files\MongoDB  2、在MongoDB目录下创建 （1）db文件夹，即C:\Program Files\Mon">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Windos下MongoDB的安装与使用">
+<meta property="og:url" content="http://yoursite.com/2017/09/13/Windos下MongoDB的安装与使用/index.html">
 <meta property="og:site_name" content="JasonCeng&#39;s Blog">
-<meta property="og:description" content="每一天都值得被認真對待。">
+<meta property="og:description" content="一、下载 1、mongoDB for Windows 2、mongoDB for Linux 3、mongoDB for OSX(mac) 二、安装与配置 1、安装到指定文件夹，这里我默认安装到了C盘的Program Files文件夹下，安装后的路径为  C:\Program Files\MongoDB  2、在MongoDB目录下创建 （1）db文件夹，即C:\Program Files\Mon">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-09-13T13:00:02.355Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="JasonCeng&#39;s Blog">
-<meta name="twitter:description" content="每一天都值得被認真對待。">
+<meta name="twitter:title" content="Windos下MongoDB的安装与使用">
+<meta name="twitter:description" content="一、下载 1、mongoDB for Windows 2、mongoDB for Linux 3、mongoDB for OSX(mac) 二、安装与配置 1、安装到指定文件夹，这里我默认安装到了C盘的Program Files文件夹下，安装后的路径为  C:\Program Files\MongoDB  2、在MongoDB目录下创建 （1）db文件夹，即C:\Program Files\Mon">
 
 
 
@@ -134,13 +135,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/09/13/Windos下MongoDB的安装与使用/"/>
 
 
 
 
 
-  <title>JasonCeng's Blog</title>
+  <title>Windos下MongoDB的安装与使用 | JasonCeng's Blog</title>
   
 
 
@@ -169,8 +170,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -253,9 +253,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -285,9 +285,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/09/13/Windos下MongoDB的安装与使用/" itemprop="url">Windos下MongoDB的安装与使用</a></h1>
+          <h1 class="post-title" itemprop="name headline">Windos下MongoDB的安装与使用</h1>
         
 
         <div class="post-meta">
@@ -348,9 +346,7 @@
       
 
       
-        
-          
-            <p>一、下载</p>
+        <p>一、下载</p>
 <p>1、<a href="https://www.mongodb.com/download-center?jmp=nav#community" target="_blank" rel="external">mongoDB for Windows</a></p>
 <p>2、<a href="https://www.mongodb.com/download-center?jmp=nav#community" target="_blank" rel="external">mongoDB for Linux</a></p>
 <p>3、<a href="https://www.mongodb.com/download-center?jmp=nav#community" target="_blank" rel="external">mongoDB for OSX(mac)</a></p>
@@ -384,8 +380,6 @@
 </blockquote>
 <p>2、进入mongodb</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">C:\Program Files\MongoDB\Server\3.4\bin&gt;mongo</div><div class="line">MongoDB shell version v3.4.6</div><div class="line">connecting to: mongodb://127.0.0.1:27017</div><div class="line">MongoDB server version: 3.4.6</div><div class="line">Welcome to the MongoDB shell.</div><div class="line">For interactive help, type "help".</div><div class="line">For more comprehensive documentation, see</div><div class="line">        http://docs.mongodb.org/</div><div class="line">Questions? Try the support group</div><div class="line">        http://groups.google.com/group/mongodb-user</div><div class="line">Server has startup warnings:</div><div class="line">2017-07-19T17:57:43.702+0800 I CONTROL  [initandlisten]</div><div class="line">2017-07-19T17:57:43.702+0800 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.</div><div class="line">2017-07-19T17:57:43.702+0800 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.</div><div class="line">2017-07-19T17:57:43.702+0800 I CONTROL  [initandlisten]</div><div class="line"><span class="meta">&gt;</span></div></pre></td></tr></table></figure>
-          
-        
       
     </div>
     
@@ -402,149 +396,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/12/Visual-Stuido-Code快捷键大全/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="JasonCeng">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="JasonCeng's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/09/12/Visual-Stuido-Code快捷键大全/" itemprop="url">Visual Stuido Code快捷键大全</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-12T22:30:34+08:00">
-                2017-09-12
-              </time>
+              <a href="/2017/09/12/Visual-Stuido-Code快捷键大全/" rel="next" title="Visual Stuido Code快捷键大全">
+                <i class="fa fa-chevron-left"></i> Visual Stuido Code快捷键大全
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/09/12/Visual-Stuido-Code快捷键大全/" class="leancloud_visitors" data-flag-title="Visual Stuido Code快捷键大全">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          <p><strong>前言</strong></p>
-<blockquote>
-<p>可能每个IT人心中都有这样一个理想，用自己所积累的东西帮助更多的人。于是就开始将他们所积累的点滴放到博客上面，构筑一个知识宝库，惠及更多的IT爱好者和从业者。我也是本着这样的初心，开始了我的技术博客之旅，这一篇算是开山之作，翻译了<em><a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf" target="_blank" rel="external">VS Code的快捷键官方文档</a></em>（PDF可下载），希望能够帮到有需要的人，也希望我自己能从此开始，从此坚持下去。<br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/09/12/Visual-Stuido-Code快捷键大全/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -554,145 +427,11 @@
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/12/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="JasonCeng">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/avatar.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="JasonCeng's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/09/12/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-12T20:21:35+08:00">
-                2017-09-12
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2017/09/12/hello-world/" class="leancloud_visitors" data-flag-title="Hello World">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>Welcome to <a href="http://jasonceng.cn/" target="_blank" rel="external">JasonCeng’s Blog</a>! This is your very first post.<br>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2017/09/12/hello-world/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -700,6 +439,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -895,6 +638,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
+
 
   
 
